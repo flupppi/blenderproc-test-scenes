@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "BlenderProc Test Scenes",
+    "section": "",
+    "text": "Sadly it is not possible to develop a blenderproc pipeline in a notebook fully. Blenderproc needs to execute in a BlenderInternal python interpreter.\nWe can still develop some functionality in notebooks, but only things that can be run without requiring to import the blenderproc libraries.",
+    "crumbs": [
+      "BlenderProc Test Scenes"
+    ]
+  },
+  {
+    "objectID": "test.html#datasets",
+    "href": "test.html#datasets",
+    "title": "BlenderProc Test Scenes",
+    "section": "Datasets",
+    "text": "Datasets\nBlenderProc provides easy access to many datasets and freely available assets that can be used for testing using the blenderproc download command.\nOnce you download these assets to your system they can be implemented using different loaders that convert the dataset specific formats into MeshObject instances.\ne.g.: objs = bproc.loader.load_obj(\"mymesh.obj\")",
+    "crumbs": [
+      "BlenderProc Test Scenes"
+    ]
+  },
+  {
+    "objectID": "test.html#manipulating-objects",
+    "href": "test.html#manipulating-objects",
+    "title": "BlenderProc Test Scenes",
+    "section": "Manipulating objects",
+    "text": "Manipulating objects\nOnce loaded objects can be manipulated using built in functions. e.g. changing the location, rotation, full pose matrix or transformation matrix.",
+    "crumbs": [
+      "BlenderProc Test Scenes"
+    ]
+  },
+  {
+    "objectID": "test.html#custom-properties",
+    "href": "test.html#custom-properties",
+    "title": "BlenderProc Test Scenes",
+    "section": "Custom properties",
+    "text": "Custom properties\nAssigning custom properties might be interesting for semantic segmentation this can be done with the commands obj.set_cp(\"my_prop\", 42) or obj.get_cp(\"my_prop\")",
+    "crumbs": [
+      "BlenderProc Test Scenes"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blenderproc-test-scenes",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "blenderproc-test-scenes"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "blenderproc-test-scenes",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall blenderproc_test_scenes in Development mode\n# make sure blenderproc_test_scenes package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to blenderproc_test_scenes\n$ nbdev_prepare",
+    "crumbs": [
+      "blenderproc-test-scenes"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "blenderproc-test-scenes",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/flupppi/blenderproc-test-scenes.git\nor from conda\n$ conda install -c flupppi blenderproc_test_scenes\nor from pypi\n$ pip install blenderproc_test_scenes\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "blenderproc-test-scenes"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "blenderproc-test-scenes",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "blenderproc-test-scenes"
+    ]
+  }
+]
