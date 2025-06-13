@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "blenderproc-test-scenes"
+  site-url: "https://flupppi.github.io/blenderproc-test-scenes"
+  description: ""test scenes for blenderproc""
+  repo-branch: main
+  repo-url: "https://github.com/flupppi/blenderproc-test-scenes"
