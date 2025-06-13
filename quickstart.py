@@ -1,9 +1,14 @@
+# Import packages
 import blenderproc as bproc
 import numpy as np
 import debugpy
 
+# Attach debugger
 debugpy.listen(5678)
+print("⏳ Waiting for debugger attach...")
 debugpy.wait_for_client()
+print("✅ Debugger attached, continuing execution.")
+
 
 bproc.init()
 
